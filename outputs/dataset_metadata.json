@@ -1,0 +1,28 @@
+{
+  "dataset_info": {
+    "classes": [
+      "good",
+      "gap",
+      "bridge"
+    ],
+    "num_classes": 3,
+    "images_per_class": 50,
+    "total_images": 150,
+    "image_size": 128,
+    "generation_parameters": {
+      "num_lines": 8,
+      "line_width": 6,
+      "gap_width": 6
+    }
+  },
+  "file_structure": {
+    "data_directory": "data/",
+    "class_subdirectories": [
+      "data/good/",
+      "data/gap/",
+      "data/bridge/"
+    ],
+    "labels_file": "data/labels.csv",
+    "samples_directory": "samples/"
+  }
+}

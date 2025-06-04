@@ -1,0 +1,10 @@
+{
+  "num_classes": 3,
+  "input_size": 128,
+  "architecture": "resnet18",
+  "class_to_idx": {
+    "good": 0,
+    "gap": 1,
+    "bridge": 2
+  }
+}
